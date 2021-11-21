@@ -25,7 +25,7 @@ tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex + cells(i, 8).value
 This allowed our code to be more efficient and run faster. 
 
 The results show it to be more efficient in time. The results each year is shown below. 
-  <img width="234" alt="2021-11-20 (21)" src="https://user-images.githubusercontent.com/94208810/142775031-2f4abe7b-b485-4b2b-9866-5747d903f1ea.png">
+<img width="234" alt="2021-11-20 (21)" src="https://user-images.githubusercontent.com/94208810/142775031-2f4abe7b-b485-4b2b-9866-5747d903f1ea.png">
 <img width="234" alt="2021-11-20 (22)" src="https://user-images.githubusercontent.com/94208810/142775033-b4f5360d-0299-4887-b64a-a50e1a85c2ba.png">
 
 ## Summary
