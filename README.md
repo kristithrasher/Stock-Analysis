@@ -14,13 +14,13 @@ The initial code that we used required twelve separated iterations over the year
 The results of the time it took our original code for each of the two years analyzed is shown below with data and elapsed time to run code. 
 
 The data for 2017
-<img width="230" alt="2021-11-20 (24)" src="https://user-images.githubusercontent.com/94208810/142777151-eccebe02-962d-45a2-847a-94db43440522.png">
+
 ![Screenshot (3)](https://user-images.githubusercontent.com/94208810/142777155-7de4328c-2704-4737-8fe4-b86f39647416.png)
 
 
 
 The data for 2018 
-<img width="230" alt="2021-11-20 (25)" src="https://user-images.githubusercontent.com/94208810/142777167-32a06945-0dc9-40db-8ec4-8983e81d670a.png">
+
 ![Screenshot (4)](https://user-images.githubusercontent.com/94208810/142777170-88a1bfd0-f7f7-4be8-a47b-51f9d39c22a0.png)
 
 
@@ -35,13 +35,11 @@ The results of time it took to run the refactored code for each of the two years
 The results each year is shown below with data and elapsed time. 
 
 The data for 2017
-<img width="234" alt="2021-11-20 (21)" src="https://user-images.githubusercontent.com/94208810/142777258-f2dec88b-7966-4d03-a83a-e2eba5f22cac.png">
 
 ![Screenshot (5)](https://user-images.githubusercontent.com/94208810/142777263-03d77009-1ab7-4ca1-854b-0bdb47f0a216.png)
 
 
 The data for 2018 
-<img width="234" alt="2021-11-20 (22)" src="https://user-images.githubusercontent.com/94208810/142777218-c792d463-9752-4954-9ebb-48eb549f26f4.png">
 
 ![Screenshot (6)](https://user-images.githubusercontent.com/94208810/142777219-c0404385-aa18-4127-928b-81a087170888.png)
 
