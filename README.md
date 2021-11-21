@@ -1,6 +1,7 @@
 Initial 
 # Stock-Analysis
 
+## Background
 Steve is our client, he just graduated with a finance degree. Stevea came to us and asked us to help him analyze some stock data. He is investing his parents money as they are his first clients. His parents want to invest in Green Energy Stock and have decided they wanted to invest all into DAQO stock or "DQ". This is a green energy company that makes silicone wafers for solar panels.  Steve is concerned aoubt diversifying their option. He has given us an excel file with twelve different stocks including DQ for two different years, either 2017 or 2018.  in the two worsheets were the tickers for each Stock, date the stock opened, open price, high price, low price,close price, adjust close price, and volume.  Steve realizes he will need to enable macros if he wants to run the analysis on in the future. We will help Steve by creating Macros using Visual Basic Application and changing the file type from .xlsx to .xlsm (macro enabled). 
 
 Steve loves the workbook you prepared for him. At the click of a button, he can analyze an entire dataset. Now, to do a little more research for his parents, he wants to expand the dataset to include the entire stock market over the last few years. Although your code works well for a dozen stocks, it might not work as well for thousands of stocks. And if it does, it may take a long time to execute.
@@ -10,7 +11,9 @@ Steve loves the workbook you prepared for him. At the click of a button, he can 
 
 
 
-##Results
+## Results
+
+  Analysis is well described with screenshots and code.
 Steve realizes he will need to enable macros if he wants to run the analysis on new data in the future. We have enabled macros so Steve can run the analysis whenever he wants. 
 We began by renaming the Excel file to VBA_Challenge.xlsm. This .xlsm file extension extension are files that contain macro-enabled spreadsheet files that have been created with the Microsoft Excel spreadsheet application. The macros are now enabled to run anytime.  We used Visual Basic Application to create macros to run analysis on multiple stocks. We created an output sheet titled "Stock Analysis" in our Excel workbook. We created a Macro called All_Stocks_Analysis to output the ticker, total daily volume and the return percentage of each stock. The total daily volume is the amount of times a stock was traded and the return is the yearly return is how much your investment grew or shrunk by the end of the year. to determine how a stock perfomrs for that year is by finding the yearly return. yearly return =  the percentage increase or decrease in price from the beginning of the year to the end of the year. We also created a macro to automatically format the data. We highlighed positive returns in green and negative in red.
 The table is easy to read, We Highlighted by color green to determine at a glance which stocks performed well and highlighted in red which ones did not.
@@ -23,15 +26,11 @@ Refactoring is a key part of the coding process. When refactoring code, you aren
 
 
 
-## Overview of Project
+## Summary
+  There is a detailed statement of the advantages and disadvantages of refactoring code in general.
+  
+  There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script.  
 
-### Purpose
-
-## Analysis and Challenges
-
-### Analysis of Outcomes Based on Launch Date
-
-### Analysis of Outcomes Based on Goals
 
 ### Challenges and Difficulties Encountered
 
