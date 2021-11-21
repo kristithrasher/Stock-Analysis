@@ -1,36 +1,43 @@
-Initial 
-# Stock-Analysis
+# Stock Analysis
 
 ## Background
-Steve is our client, he just graduated with a finance degree. Stevea came to us and asked us to help him analyze some stock data. He is investing his parents money as they are his first clients. His parents want to invest in Green Energy Stock and have decided they wanted to invest all into DAQO stock or "DQ". This is a green energy company that makes silicone wafers for solar panels.  Steve is concerned aoubt diversifying their option. He has given us an excel file with twelve different stocks including DQ for two different years, either 2017 or 2018.  in the two worsheets were the tickers for each Stock, date the stock opened, open price, high price, low price,close price, adjust close price, and volume.  Steve realizes he will need to enable macros if he wants to run the analysis on in the future. We will help Steve by creating Macros using Visual Basic Application and changing the file type from .xlsx to .xlsm (macro enabled). 
-
-Steve loves the workbook you prepared for him. At the click of a button, he can analyze an entire dataset. Now, to do a little more research for his parents, he wants to expand the dataset to include the entire stock market over the last few years. Although your code works well for a dozen stocks, it might not work as well for thousands of stocks. And if it does, it may take a long time to execute.
-
-
-
-
-
+Steve first came to us fresh out of college with a finance degree, His parents were his first clients. They were interested in investing all their money in DQ stock per is parents’ request. After his research he felt it was in his best interest to look at more stock options for his parents, so he wanted some help in accessing is data more efficiently. Initially Steve gave us an excel file of twelve different stocks for two years. 
+We agreed to help Steve and presented him with a workbook that ran analysis on the data set he gave us with the 12 stocks and created a button that would automate the code we wrote to analyze and output the results to a new worksheet we titled “All Stocks Analysis”. We had simple user-friendly buttons created to automate clearing the worksheet, running analysis and a user prompt to insert the year he wanted to run the data on. This automation made it easy for Steve to enter the date he wanted to run his analysis on. We also created a macro that would send a message box to the screen with code performance results including how long it took the analysis code to run and output the data. The code is highlighted by positive or negative returns by color. Green represents the positive returns and red for negative returns. This makes it easy for Steve to read more easily. 
+After presenting Steve with the workbook, he was pleased. He wanted to expand the dataset to include the entire stock market over the last few years. Although our code works well for a dozen stocks, it might not work as well for thousands of stocks. The existing code would take long time to execute a larger dataset so we refactored our current code to make it more efficient by taking fewer steps and using less memory.  
 
 ## Results
 
-  Analysis is well described with screenshots and code.
-Steve realizes he will need to enable macros if he wants to run the analysis on new data in the future. We have enabled macros so Steve can run the analysis whenever he wants. 
-We began by renaming the Excel file to VBA_Challenge.xlsm. This .xlsm file extension extension are files that contain macro-enabled spreadsheet files that have been created with the Microsoft Excel spreadsheet application. The macros are now enabled to run anytime.  We used Visual Basic Application to create macros to run analysis on multiple stocks. We created an output sheet titled "Stock Analysis" in our Excel workbook. We created a Macro called All_Stocks_Analysis to output the ticker, total daily volume and the return percentage of each stock. The total daily volume is the amount of times a stock was traded and the return is the yearly return is how much your investment grew or shrunk by the end of the year. to determine how a stock perfomrs for that year is by finding the yearly return. yearly return =  the percentage increase or decrease in price from the beginning of the year to the end of the year. We also created a macro to automatically format the data. We highlighed positive returns in green and negative in red.
-The table is easy to read, We Highlighted by color green to determine at a glance which stocks performed well and highlighted in red which ones did not.
-We created a button on our sheet to make it more user friendly so steve can easily run his analysis on all Stocks. Within that Macro we have it to where it runs the data on the year the user inputs. So in Steve's case he can enter 2017 or 2018 and get Analysis on each year for all Stocks. We measured code performance and wanted to display to show Steve how fast it took to run the analysis. We did this also inserted a colde block to gather the time it took to run the macro. Once the analysis is performed a pop up appears and shows the user the amount of time for the year. Steve was estatic to see how  fast the script ran. We refactored our code to run all stock analysis for
+### The initial code that we used required twelve separated iterations over the year inputted by user of stock data for each in stock of interest. It had to run through the data of the worksheet twelve times and produced us with the results we wanted. 
 
-In this challenge, you’ll edit, or refactor, the Module 2 solution code to loop through all the data one time in order to collect the same information that you did in this module. Then, you’ll determine whether refactoring your code successfully made the VBA script run faster. Finally, you’ll present a written analysis that explains your findings.
-
-Refactoring is a key part of the coding process. When refactoring code, you aren’t adding new functionality; you just want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read. Refactoring is common on the job because first attempts at code won’t always be the best way to accomplish a task. Sometimes, refactoring someone else’s
+The results of the original code for each of the two years analyzed is shown below 
+  
+<img width="230" alt="2021-11-20 (24)" src="https://user-images.githubusercontent.com/94208810/142775008-0aa87ccc-8124-427e-a13e-32cfe23eb505.png">
+<img width="230" alt="2021-11-20 (25)" src="https://user-images.githubusercontent.com/94208810/142775017-6f5c13e8-014f-4fe5-bc1e-328fe8005e91.png">
 
 
+### The results of the refactored code
 
+The refactored code iterated over all the data for the year the user specified only once resulting in same output of all data needed to output.
+Creating a tickerIndex variable that is set to 0 before iterating over all the rows of data. This variable accessed the correct index across the four different arrays (ticker, tickerVolumes, tickerStartingPrices and tickerEndingPrices.  We increased the current tickerVolumes by using the tickerIndex variable as the index, with following code and declared array variables.  
+tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex + cells(i, 8).value
+This allowed our code to be more efficient and run faster. 
+
+The results show it to be more efficient in time. The results each year is shown below. 
+  <img width="234" alt="2021-11-20 (21)" src="https://user-images.githubusercontent.com/94208810/142775031-2f4abe7b-b485-4b2b-9866-5747d903f1ea.png">
+<img width="234" alt="2021-11-20 (22)" src="https://user-images.githubusercontent.com/94208810/142775033-b4f5360d-0299-4887-b64a-a50e1a85c2ba.png">
 
 ## Summary
-  There is a detailed statement of the advantages and disadvantages of refactoring code in general.
-  
-  There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script.  
+
+### The Advantages and Disadvantages of refactoring code. 
+Advantages to refactoring code is you just want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read.
+
+### The Disadvantages of refactoring code. 
+Disadvantages of refactoring code is it cannot fix underlying architecture problems or change the functionality of the code. It also can be risky in creating error especially if a big application or programmer doesn’t fully understand what it is they are improving. 
+
+### The advantages and disadvantages of the refactored VBA script and the original code are 
+The refactored code ran faster than the initial set of code. It also allows for it to gather more data efficiently by creating/defining new variables and declaring arrays. We have one big for loop to do this instead of iterating through the same data twelve seperate times. 
 
 
 ### Challenges and Difficulties Encountered
+I had trouble at times keeping the data organized from the old code vs the new code.
 
