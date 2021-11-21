@@ -11,10 +11,14 @@ After presenting Steve with the workbook, he was pleased. He wanted to expand th
 
 The initial code that we used required twelve separated iterations over the year inputted by user of stock data for each in stock of interest. It had to run through the data of the worksheet twelve times and produced us with the results we wanted. 
 
-The results of the original code for each of the two years analyzed is shown below 
+The results of the time it took our original code for each of the two years analyzed is shown below 
   
 <img width="230" alt="2021-11-20 (24)" src="https://user-images.githubusercontent.com/94208810/142775008-0aa87ccc-8124-427e-a13e-32cfe23eb505.png">
 <img width="230" alt="2021-11-20 (25)" src="https://user-images.githubusercontent.com/94208810/142775017-6f5c13e8-014f-4fe5-bc1e-328fe8005e91.png">
+
+The data for 2017
+
+The data for 2018 
 
 
 ### The results of the refactored code
@@ -24,9 +28,13 @@ Creating a tickerIndex variable that is set to 0 before iterating over all the r
 tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex + cells(i, 8).value
 This allowed our code to be more efficient and run faster. 
 
-The results show it to be more efficient in time. The results each year is shown below. 
+The results of time it took to run the refactored code for each of the two years analyzed is shown below show it to be more efficient in time. The results each year is shown below. 
 <img width="234" alt="2021-11-20 (21)" src="https://user-images.githubusercontent.com/94208810/142775031-2f4abe7b-b485-4b2b-9866-5747d903f1ea.png">
 <img width="234" alt="2021-11-20 (22)" src="https://user-images.githubusercontent.com/94208810/142775033-b4f5360d-0299-4887-b64a-a50e1a85c2ba.png">
+
+The data for 2017
+
+The data for 2018 
 
 ## Summary
 
