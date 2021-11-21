@@ -7,7 +7,9 @@ After presenting Steve with the workbook, he was pleased. He wanted to expand th
 
 ## Results
 
-### The initial code that we used required twelve separated iterations over the year inputted by user of stock data for each in stock of interest. It had to run through the data of the worksheet twelve times and produced us with the results we wanted. 
+### The Results of the initial set of code
+
+The initial code that we used required twelve separated iterations over the year inputted by user of stock data for each in stock of interest. It had to run through the data of the worksheet twelve times and produced us with the results we wanted. 
 
 The results of the original code for each of the two years analyzed is shown below 
   
