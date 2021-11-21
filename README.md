@@ -11,15 +11,16 @@ After presenting Steve with the workbook, he was pleased. He wanted to expand th
 
 The initial code that we used required twelve separated iterations over the year inputted by user of stock data for each in stock of interest. It had to run through the data of the worksheet twelve times and produced us with the results we wanted. 
 
-The results of the time it took our original code for each of the two years analyzed is shown below 
-  
-<img width="230" alt="2021-11-20 (24)" src="https://user-images.githubusercontent.com/94208810/142775008-0aa87ccc-8124-427e-a13e-32cfe23eb505.png">
-<img width="230" alt="2021-11-20 (25)" src="https://user-images.githubusercontent.com/94208810/142775017-6f5c13e8-014f-4fe5-bc1e-328fe8005e91.png">
+The results of the time it took our original code for each of the two years analyzed is shown below with data and elapsed time to run code. 
 
 The data for 2017
+<img width="230" alt="2021-11-20 (24)" src="https://user-images.githubusercontent.com/94208810/142775008-0aa87ccc-8124-427e-a13e-32cfe23eb505.png">
+![2017InitialCode](https://user-images.githubusercontent.com/94208810/142776971-9f9f47ab-f952-48b1-8def-2799761131e5.jpeg)
+
 
 The data for 2018 
-
+![2018InitialCode](https://user-images.githubusercontent.com/94208810/142776807-3a4cde2c-0a70-4763-acb2-3676be750f88.jpg)
+<img width="230" alt="2021-11-20 (25)" src="https://user-images.githubusercontent.com/94208810/142775017-6f5c13e8-014f-4fe5-bc1e-328fe8005e91.png">
 
 ### The results of the refactored code
 
@@ -28,21 +29,29 @@ Creating a tickerIndex variable that is set to 0 before iterating over all the r
 tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex + cells(i, 8).value
 This allowed our code to be more efficient and run faster. 
 
-The results of time it took to run the refactored code for each of the two years analyzed is shown below show it to be more efficient in time. The results each year is shown below. 
-<img width="234" alt="2021-11-20 (21)" src="https://user-images.githubusercontent.com/94208810/142775031-2f4abe7b-b485-4b2b-9866-5747d903f1ea.png">
-<img width="234" alt="2021-11-20 (22)" src="https://user-images.githubusercontent.com/94208810/142775033-b4f5360d-0299-4887-b64a-a50e1a85c2ba.png">
+The results of time it took to run the refactored code for each of the two years analyzed is shown below show it to be more efficient in time. 
+The results each year is shown below with data and elapsed time. 
 
 The data for 2017
+![2017RefactoredCode](https://user-images.githubusercontent.com/94208810/142776796-48e51355-4da6-4359-9979-74e873b08a0a.jpg)
+<img width="234" alt="2021-11-20 (21)" src="https://user-images.githubusercontent.com/94208810/142775031-2f4abe7b-b485-4b2b-9866-5747d903f1ea.png">
 
 The data for 2018 
+![2018RefactoredCode](https://user-images.githubusercontent.com/94208810/142776808-e85783a4-8f00-40d7-b65c-12d0a773a328.png)
+<img width="234" alt="2021-11-20 (22)" src="https://user-images.githubusercontent.com/94208810/142775033-b4f5360d-0299-4887-b64a-a50e1a85c2ba.png">
+
 
 ## Summary
 
 ### The Advantages and Disadvantages of refactoring code. 
-Advantages to refactoring code is you just want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read.
+Advantages to refactoring code is you just want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read.![2017InitialCode](https://user-images.githubusercontent.com/94208810/142776795-4f915faf-8297-4072-9149-c87a383fe813.jpeg)
+
 
 ### The Disadvantages of refactoring code. 
-Disadvantages of refactoring code is it cannot fix underlying architecture problems or change the functionality of the code. It also can be risky in creating error especially if a big application or programmer doesn’t fully understand what it is they are improving. 
+Disadvantages of refactorin!
+g code is it cannot fix underlying architecture problems 
+or change the functionality of the code. It also can be risky in creating error especially if a big application or programmer doesn’t fully understand what it is they are improving. 
+
 
 ### The advantages and disadvantages of the refactored VBA script and the original code are 
 The refactored code ran faster than the initial set of code. It also allows for it to gather more data efficiently by creating/defining new variables and declaring arrays. We have one big for loop to do this instead of iterating through the same data twelve seperate times. 
