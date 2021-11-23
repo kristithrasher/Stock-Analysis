@@ -20,13 +20,12 @@ The results of the time it took our original code for each of the two years anal
 
 The data for 2017
 
-![Screenshot (3)](https://user-images.githubusercontent.com/94208810/142777155-7de4328c-2704-4737-8fe4-b86f39647416.png)
 
 
 
 The data for 2018 
 
-![Screenshot (4)](https://user-images.githubusercontent.com/94208810/142777170-88a1bfd0-f7f7-4be8-a47b-51f9d39c22a0.png)
+
 
 
 
@@ -42,12 +41,11 @@ The results each year is shown below with data and elapsed time.
 
 The data for 2017
 
-![Screenshot (5)](https://user-images.githubusercontent.com/94208810/142777263-03d77009-1ab7-4ca1-854b-0bdb47f0a216.png)
+
 
 
 The data for 2018 
 
-![Screenshot (6)](https://user-images.githubusercontent.com/94208810/142777219-c0404385-aa18-4127-928b-81a087170888.png)
 
 
 ### The advantages and disadvantages of refactoring code. 
