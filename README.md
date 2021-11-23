@@ -19,15 +19,10 @@ The initial code that we used required twelve separated iterations over the year
 The results of the time it took our original code for each of the two years analyzed is shown below with data and elapsed time to run code. 
 
 The data for 2017
-
-
-
+![2017InitialCode (2)](https://user-images.githubusercontent.com/94208810/142974206-6f3c1244-415b-4f3d-842a-bfc3fc24591f.png)
 
 The data for 2018 
-
-
-
-
+![2018InitialCode (2)](https://user-images.githubusercontent.com/94208810/142974222-02183403-7d5a-4c0b-ae04-eb44f1ee7c54.png)
 
 ### The results of the refactored code
 
@@ -40,13 +35,10 @@ The results of time it took to run the refactored code for each of the two years
 The results each year is shown below with data and elapsed time. 
 
 The data for 2017
-
-
-
+![2017Refactored](https://user-images.githubusercontent.com/94208810/142974280-dc203397-2aff-46a9-9bef-f60a06178ec7.png)
 
 The data for 2018 
-
-
+![2018RefactoredCode (2)](https://user-images.githubusercontent.com/94208810/142974297-b8cf1bb4-a6cf-4f42-b89b-7249c6f85240.png)
 
 ### The advantages and disadvantages of refactoring code. 
 Advantages to refactoring code is you just want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read. Some disadvantages of refactoring code is it cannot fix underlying architecture problems or change the functionality of the code. It also can be risky in creating error especially if a big application or programmer doesn’t fully understand what it is they are improving. 
